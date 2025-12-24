@@ -211,7 +211,7 @@
             Developed a simple calculator using HTML, CSS, and JavaScript
             to perform basic arithmetic operations with a clean UI.
           </p>
-          <a href=><i class="bx bx-link-external"></i></a>
+          <a href="#"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
 
@@ -227,25 +227,43 @@
           <a href="https://doctorapointment.netlify.app/"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
+
+      <!-- Portfolio Section -->
+       <div class="portfolio-box">
+        <img src="assets/img/project_img/portfolio/Portfolio.png" alt="Portfolio" />
+        <div class="portfolio-layer">
+          <h4>Portfolio</h4>
+          <p>
+            Developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills.
+            Implemented modern UI interactions, animations, and clean layouts for an engaging user experience.
+          </p>
+          <a href="https://manjunath-c071.github.io/"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
+  <!-- contact section desing -->
 
-    <form action="#">
-      <div class="input-box">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
-      </div>
-      <div class="input-box">
-        <input type="number" placeholder="Phone Number">
-        <input type="text" placeholder="Email Subject">
-      </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-      <input type="submit" value="Send Message" class="btn">
-    </form>
-  </section>
+ <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+
+  <form id="contact-form">
+    <div class="input-box">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+    </div>
+
+    <div class="input-box">
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="subject" placeholder="Email Subject" required>
+    </div>
+
+    <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+    <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
 
 
   <!-- footer section desing -->
@@ -268,6 +286,10 @@
 
 <!----typed js---->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- contact js file -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="assets/contact.js"></script>
 
   <!-- custom js file  -->
   <script src="assets/port.js"></script>
